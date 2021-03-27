@@ -17,9 +17,6 @@ class Model extends Component {
 }
 
 export default class Portals extends Component {
-  constructor(props) {
-    super(props)
-  }
   state = {
     showModel: false,
   }

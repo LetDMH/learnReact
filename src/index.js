@@ -9,6 +9,7 @@ import ContextNew from './components/demo/context-new'
 import RenderProps from './components/demo/renderProps'
 import Portals from './components/demo/portals'
 import StateHook from './components/hooks/stateHook'
+import EffectHook from './components/hooks/effectHook'
 
 const obj = { name: 'zyl', age: 30, time: 30 }
 const funcObj = { name: 'dmh', age: 24, content: <div>content</div> }
@@ -50,6 +51,7 @@ ReactDOM.render(
     <Portals />
     <div>
     <StateHook />
+    <EffectHook />
     </div>
   </h1>,
   document.getElementById('root')
